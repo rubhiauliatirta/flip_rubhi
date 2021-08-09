@@ -50,7 +50,7 @@ export default function TransactionList() {
 
 const styles = StyleSheet.create({
   flatList: {
-    marginTop: SPACE_MD
+    marginTop: SPACE_MD,
   },
   loadingContainer: {
     flex: 1,
