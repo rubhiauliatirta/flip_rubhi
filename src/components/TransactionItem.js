@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
   button: {
     marginTop: SPACE_SM,
     borderRadius: 10,
+    marginHorizontal: Platform.OS === 'ios' ? SPACE_MD : undefined,
   },
   container: {
     flex: 1,

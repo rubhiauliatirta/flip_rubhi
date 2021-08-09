@@ -1,9 +1,16 @@
 import React, { useState } from 'react';
-import { View, TextInput, StyleSheet, Pressable, Text, Platform } from 'react-native';
+import {
+  View,
+  TextInput,
+  StyleSheet,
+  Pressable,
+  Text,
+  Platform,
+} from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import DownIcon from './DownIcon';
 import SearchIcon from './SearchIcon';
-import { COLOR_ORANGE, SPACE_SM } from '../helpers/constants';
+import { COLOR_ORANGE, SPACE_MD, SPACE_SM } from '../helpers/constants';
 import {
   setQuery as setQueryAction,
   setSort,
@@ -69,6 +76,7 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     fontSize: 15,
+    marginVertical: Platform.OS === 'ios' ? SPACE_MD : undefined,
   },
   sortButton: {
     flexDirection: 'row',
