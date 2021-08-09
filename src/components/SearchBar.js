@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, TextInput, StyleSheet, Pressable, Text } from 'react-native';
+import { View, TextInput, StyleSheet, Pressable, Text, Platform } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 import DownIcon from './DownIcon';
 import SearchIcon from './SearchIcon';
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
   },
   sortText: {
     fontSize: 14,
-    fontFamily: 'roboto_medium',
+    fontFamily: Platform.OS === 'android' ? 'Roboto-Medium' : undefined,
     color: COLOR_ORANGE,
   },
 });

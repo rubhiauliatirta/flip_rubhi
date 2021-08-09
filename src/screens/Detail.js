@@ -111,7 +111,7 @@ const styles = StyleSheet.create({
     color: COLOR_ORANGE,
   },
   title: {
-    fontFamily: Platform.OS === 'android' ? 'roboto_medium' : undefined,
+    fontFamily: Platform.OS === 'android' ? 'Roboto-Medium' : undefined,
     fontSize: 16,
     marginRight: SPACE_MD / 2,
   },

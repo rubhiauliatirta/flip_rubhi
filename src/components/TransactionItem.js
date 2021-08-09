@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
   }),
   badgeText: status => ({
-    fontFamily: Platform.OS === 'android' ? 'roboto_medium' : undefined,
+    fontFamily: Platform.OS === 'android' ? 'Roboto-Medium' : undefined,
     fontWeight: '700',
     color: variant[status].textColor,
   }),

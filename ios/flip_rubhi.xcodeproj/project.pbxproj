@@ -14,7 +14,7 @@
 		3EB83B055FBE1A8255252364 /* libPods-flip_rubhi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C81D5A29067BA8949291B73F /* libPods-flip_rubhi.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9D7289590D0F275AF70869F7 /* libPods-flip_rubhi-flip_rubhiTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70345AA044DAF245080F7F3D /* libPods-flip_rubhi-flip_rubhiTests.a */; };
-		D2880202680B4C58B5DF5366 /* roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD0CC099714C7CB4261155 /* roboto_medium.ttf */; };
+		D2880202680B4C58B5DF5366 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD0CC099714C7CB4261155 /* Roboto-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,7 @@
 		00E356EE1AD99517003FC87E /* flip_rubhiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flip_rubhiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* flip_rubhiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = flip_rubhiTests.m; sourceTree = "<group>"; };
-		0ABD0CC099714C7CB4261155 /* roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = roboto_medium.ttf; path = ../src/assets/roboto_medium.ttf; sourceTree = "<group>"; };
+		0ABD0CC099714C7CB4261155 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto-Medium.ttf; path = ../src/assets/Roboto-Medium.ttf; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* flip_rubhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flip_rubhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = flip_rubhi/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = flip_rubhi/AppDelegate.m; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		15A7E072CC484207A431FD55 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0ABD0CC099714C7CB4261155 /* roboto_medium.ttf */,
+				0ABD0CC099714C7CB4261155 /* Roboto-Medium.ttf */,
 			);
 			name = Resources;
 			path = "";
@@ -257,7 +257,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				D2880202680B4C58B5DF5366 /* roboto_medium.ttf in Resources */,
+				D2880202680B4C58B5DF5366 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

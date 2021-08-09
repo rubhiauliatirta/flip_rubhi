@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: '600',
     marginLeft: SPACE_LG,
-    fontFamily: Platform.OS === 'android' ? 'roboto_medium' : undefined,
+    fontFamily: Platform.OS === 'android' ? 'Roboto-Medium' : undefined,
   },
 });
 
